@@ -2,9 +2,10 @@
   "name": "chaiaurbackend",
   "version": "1.0.0",
   "description": "Backend application for better understanding of systems",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
@@ -12,5 +13,8 @@
     "Express"
   ],
   "author": "Nishant Tomer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
